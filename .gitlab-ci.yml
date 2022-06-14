@@ -1,0 +1,8 @@
+image : cypress/base:10
+stages:
+    -test
+
+test:
+  stage: test
+  script:
+  -npm run runHeadless

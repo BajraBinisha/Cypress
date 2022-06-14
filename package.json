@@ -1,0 +1,20 @@
+{
+  "name": "cypress2",
+  "version": "1.0.0",
+  "description": "cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cy.dashboard":"cypress run --record --key a0b0dac0-79f3-4106-af03-6073477d9c65",
+    "cy.open":"cypress open"
+  },
+  "keywords": [
+    "\"e2e\""
+  ],
+  "author": "\"tests\",",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.0.3",
+    "cypress-xpath": "^1.6.2"
+  }
+}
