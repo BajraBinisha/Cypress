@@ -8,7 +8,7 @@ describe("Login",()=>{
         
         cy.visit("/")
         cy.xpath("//input[@id='login']").type("binisha.awale@bajratechnologies.com")
-        cy.xpath("//input[@id='password']").type(123456789)
+        cy.xpath("//input[@id='password']").type(1243456789)
         // cy.get("#password").type("123456789")
         cy.xpath("//button[@type='submit']").click()
         // cy.url().should("be.equal","#https://bajratechnologies.com/web#action=106&active_id=mailbox_inbox&cids=1&menu_id=83")
